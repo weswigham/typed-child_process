@@ -1,0 +1,37 @@
+{
+  "name": "typed-child_process",
+  "version": "1.0.0",
+  "description": "TypeScript typings for the core child_process library",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tsc test/test.ts --module commonjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weswigham/typed-child_process.git"
+  },
+  "keywords": [
+    "typescript",
+    "child_process",
+    "typed",
+    "module",
+    "definitely"
+  ],
+  "author": "weswigham",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/weswigham/typed-child_process/issues"
+  },
+  "homepage": "https://github.com/weswigham/typed-child_process#readme",
+  "dependencies": {
+    "typed-stream": "^1.0.1",
+    "typed-events": "^1.0.1",
+    "typed-node": "^1.0.1"
+  },
+  "devDependencies": {
+    "typescript": "^1.6.0-beta"
+  }
+}
